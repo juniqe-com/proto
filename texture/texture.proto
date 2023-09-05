@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package texture;
+
+option go_package = "./texture";
+
+message TextureRequest {
+  bytes canvas = 1;
+}
+
+message TextureResponse {
+  bytes texture = 1;
+}
+
+service TextureService {
+  rpc GetTexture(TextureRequest) returns (TextureResponse);
+}
+
