@@ -6,6 +6,7 @@ option go_package = "./texture";
 
 message TextureRequest {
   bytes canvas = 1;
+  string type = 2;
 }
 
 message TextureResponse {
