@@ -4,9 +4,13 @@ package texture;
 
 option go_package = "./texture";
 
+enum Type {
+  sweatshirt = 0;
+}
+
 message TextureRequest {
   bytes canvas = 1;
-  string type = 2;
+  Type type = 2;
 }
 
 message TextureResponse {
