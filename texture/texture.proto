@@ -4,6 +4,7 @@ package texture;
 
 option go_package = "./texture";
 
+//Sweatshirt, FleeceBlanket, BeachTowel, Cushion, Duvet, NotebookA5, PhoneCaseIPhone12, Tshirt, Hoodie, Sweater, BathTowel, DuvetCover, ShowerCurtain, Towel, TshirtMan, TshirtWoman, TshirtWoman2, DuvetCoverOlamide, Cushion2, Cushion1
 enum Type {
   Sweatshirt = 0;
   FleeceBlanket = 1;
@@ -18,6 +19,13 @@ enum Type {
   BathTowel = 10;
   DuvetCover = 11;
   ShowerCurtain = 12;
+  Towel = 13;
+  TshirtMan = 14;
+  TshirtWoman = 15;
+  TshirtWoman2 = 16;
+  DuvetCoverOlamide = 17;
+  Cushion2 = 18;
+  Cushion1 = 19;
 }
 
 message TextureRequest {
