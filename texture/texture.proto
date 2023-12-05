@@ -32,8 +32,8 @@ message TextureRequest {
   bytes canvas = 1;
   Type type = 2;
   string scene = 3;
-  int32 width = 4;
-  int32 height = 5;
+  uint32 width = 4;
+  uint32 height = 5;
 }
 
 message TextureResponse {
