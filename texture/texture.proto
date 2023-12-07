@@ -30,7 +30,7 @@ enum Type {
 
 message TextureRequest {
   bytes canvas = 1; // required
-  Type type = 2;
+  Type type = 2; // deprecated
   string view = 3; // required
   uint32 width = 4; // required
   uint32 height = 5; // required
