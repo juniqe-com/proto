@@ -29,11 +29,12 @@ enum Type {
 }
 
 message TextureRequest {
-  bytes canvas = 1;
+  bytes canvas = 1; // required
   Type type = 2;
-  string scene = 3;
-  uint32 width = 4;
-  uint32 height = 5;
+  string view = 3; // required
+  uint32 width = 4; // required
+  uint32 height = 5; // required
+  string author = 6; // required
 }
 
 message TextureResponse {
